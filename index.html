@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abascoin Wallet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="abascoin-logo.png" alt="Abascoin Logo" class="logo">
+    <h1>Abascoin Solana Wallet</h1>
+    <p>¡Únete al toro verde! 🚀 Genera tu wallet para Abascoin</p>
+    <button onclick="generateWallet()">Crear Wallet</button>
+    <div id="wallet-info">
+      <p><strong>Frase semilla:</strong> <span id="mnemonic"></span></p>
+      <p><strong>Dirección pública:</strong> <span id="publicKey"></span></p>
+      <p><strong>Clave privada:</strong> <span id="privateKey"></span></p>
+    </div>
+    <p class="warning">⚠️ Guarda la frase semilla en un lugar seguro. ¡No la compartas!</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
